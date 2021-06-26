@@ -1,0 +1,14 @@
+version: '3'
+services:
+  rstudio:
+    build: .
+    image: seurat_4.0.2_monocle3
+    container_name: seurat_monocle3
+    environment: 
+      - PASSWORD=analysis
+    ports:
+     - 8787:8787
+    volumes:
+      - /Users/rikuo/Desktop/microglia_analysis:/home/rstudio
+    tty: true
+    stdin_open: true
