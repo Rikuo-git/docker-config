@@ -6,4 +6,5 @@ Rstudioにseuratとmonocle3を入れたもの
 |  R  |  4.1.0  |
 |  Seurat  |  4.0.2  |
 | Monocle3 | 1.0.0 |
+
 https://hub.docker.com/repository/docker/rikuocker/scanalysis
