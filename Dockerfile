@@ -5,7 +5,8 @@ libglpk-dev \
 libgdal-dev \
 libudunits2-dev \
 libgeos-dev \
-libproj-dev
+libproj-dev \
+libxt-dev
 RUN R -e "remotes::install_version('Seurat', version = '4.0.2')"
 RUN R -e "BiocManager::install(version = '3.13')" && \
 R -e "BiocManager::install(c('BiocGenerics', 'DelayedArray', 'DelayedMatrixStats','limma', 'S4Vectors', 'SingleCellExperiment','SummarizedExperiment', 'batchelor', 'Matrix.utils'))"
